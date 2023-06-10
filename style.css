@@ -1,12 +1,20 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+ background-color:#e0dde0;
+}
 .h1tag {
     font-size: 70px;
     color: #fafafa;
+    font-family:'pacifico',Arial, Helvetica, sans-serif;
     text-shadow: 1px 5px 10px rgb(165, 165, 165);
   }
   .nametag {
     font-size: 60px;
     color: #fafafa;
+    font-family:'pacifico',Arial, Helvetica, sans-serif;
     text-shadow: 1px 5px 10px rgb(165, 165, 165);
   }
 .h1tag,
@@ -20,23 +28,23 @@
     border-radius: 55%;
     height: 300px;
     width: 300px;
-    padding-bottom: 5px;
   }
   .proimg:hover {
     box-shadow: 0px 1px 5px 5px gray;
   }
 #firstpage{
-    min-height: 60vh;
+  border: 2px solid rgb(89, 89, 247);
+    min-height: 90vh;
     align-items: center;
     background-color: #23153c;
-    background: linear-gradient(100deg, #402, #006);
+    background: linear-gradient(100deg, #0e0725, #5c03bc);
     padding: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 460 55'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23fff' stroke-width='7' opacity='.1'%3E%3Cpath d='M-345 34.5s57.5-13.8 115-13.8 115 13.8 115 13.8S-57.5 48.3 0 48.3s115-13.8 115-13.8 57.5-13.8 115-13.8 115 13.8 115 13.8 57.5 13.8 115 13.8 115-13.8 115-13.8'/%3E%3Cpath d='M-345 20.7s57.5-13.8 115-13.8 115 13.8 115 13.8S-57.5 34.5 0 34.5s115-13.8 115-13.8S172.5 6.9 230 6.9s115 13.8 115 13.8 57.5 13.8 115 13.8 115-13.8 115-13.8m-920 27.6s57.5-13.8 115-13.8 115 13.8 115 13.8S-57.5 62.1 0 62.1s115-13.8 115-13.8 57.5-13.8 115-13.8 115 13.8 115 13.8 57.5 13.8 115 13.8 115-13.8 115-13.8'/%3E%3Cpath d='M-345 6.9s57.5-13.8 115-13.8S-115 6.9-115 6.9-57.5 20.7 0 20.7 115 6.9 115 6.9 172.5-6.9 230-6.9 345 6.9 345 6.9s57.5 13.8 115 13.8S575 6.9 575 6.9'/%3E%3Cpath d='M-345-6.9s57.5-13.8 115-13.8S-115-6.9-115-6.9-57.5 6.9 0 6.9 115-6.9 115-6.9s57.5-13.8 115-13.8S345-6.9 345-6.9 402.5 6.9 460 6.9 575-6.9 575-6.9m-920 69s57.5-13.8 115-13.8 115 13.8 115 13.8S-57.5 75.9 0 75.9s115-13.8 115-13.8 57.5-13.8 115-13.8 115 13.8 115 13.8 57.5 13.8 115 13.8 115-13.8 115-13.8'/%3E%3C/g%3E%3C/svg%3E%0A"),
-      linear-gradient(80deg, rgb(119, 8, 119), rgb(0, 0, 128));
+      linear-gradient(80deg, #0e0725,#5c03bc, #7c0b58,#8805a2);
     background-position: 50% 50%;
     animation: background-move 10s linear infinite;
     background-size: 100vw auto, 100% 100%;
@@ -61,8 +69,7 @@
 }
 #thirdbox1{
   margin-top: 20px;
-  background-color: #ae8ce9;
-  border-radius: 15px;
+  border: 2px solid rgb(227, 17, 17);
   
 }
 #thirdbox1:hover{
@@ -77,19 +84,29 @@
   align-items: center;
   text-align: center;
   border: 2px solid rgb(227, 17, 17);
-  margin-top: 50px;
 }
 
 .material-symbols-outlined{
   font-size: 80px;
   color: blueviolet;
 }
+#aboutme{
+  border: 2px solid blue;
+  align-items: center;
+  margin-top: 25px;
+}
+#aboutmetext{
+  color: #f4eeee;
+  font-size: 60px;
+  font-family:'pacifico',Arial, Helvetica, sans-serif;
+  text-shadow: grey 2px 2px 2px;
+}
 #secondbox{
   margin-top: 15px;
   padding: 5px;
+  border: 2px solid rgb(0, 255, 98);
 
 }
 #mycard{
   margin-top: 10px;
-  
 }
