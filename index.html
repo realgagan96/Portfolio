@@ -23,6 +23,7 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+  <body>
     <div class="container-fluid" id="firstbox">
 
       <div class="row " id="firstpage">
@@ -129,7 +130,7 @@
                 Some quick example text to build on the card title and make up
                 
               </p>
-              <a href="#" class="btn btn-primary">Monstera Click-Here</a>
+              <a href="https://monsterra1.netlify.app" class="btn btn-primary">Monstera Click-Here</a>
             </div>
           </div>
         </div>
@@ -152,43 +153,60 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="form">
       <div class="row">
-        <div class="col">
-          <form>
-            <div class="row">
-              <div class="col">
-                <input type="text" placeholder="First name" />
-              </div>
-              <div class="col">
-                <input type="text" placeholder="Last name" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <input type="text" placeholder="Email Address" id="email" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 col-sm-12">
-                <textarea
-                  placeholder="Go Ahead, I'm Listening... "
-                  id="text"
-                ></textarea>
-              </div>
-            </div>
-            <button id="send" type="button" class="btn btn-primary">Send</button>
-          </form>
+        <h1>Get in Touch</h1>
+        <div class="col" id="colum1">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
         </div>
-        <div class="col">
-
+        <div class="col"id="colum1" >
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
         </div>
       </div>
+      <div class="row">
+        <div class="col" id="colum1">
+          <input type="text" class="form-control" placeholder="Email" aria-label="First name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" id="colum1">
+          <div class="input-group">
+            <span class="input-group-text">Type Here</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" id="colum1">
+          <button type="button" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+     
+
+    </div>
+    <div class="tailwind">
+      <div class="bg-white py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <h2 class="text-center text-lg font-semibold leading-8 text-gray-900">Trusted by the world’s most innovative teams</h2>
+          <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="./imgs/icons8-javascript-144.png" alt="Transistor" width="158" height="48">
+            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg" alt="Reform" width="158" height="48">
+            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg" alt="Tuple" width="158" height="48">
+            <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg" alt="SavvyCal" width="158" height="48">
+            <img class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg" alt="Statamic" width="158" height="48">
+          </div>
+        </div>
+      </div>
+      
 
 
 
     </div>
 
+
+
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="portfolio.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.birds.min.js"></script>
