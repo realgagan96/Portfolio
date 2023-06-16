@@ -1,3 +1,6 @@
+hr{
+  box-shadow: 2px 2px 9px ;
+}
 #hero-section {
   background-color: #fefefe;
   background: linear-gradient(100deg, #402, #006);
@@ -47,11 +50,10 @@
 #aboutme {
   margin: 50px;
 }
-#aboutimg {
-  display: flex;
-  padding-top: 30px;
-  flex-direction: column;
-  justify-content: center;
+#heropic2{
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 7px 2px;
 }
 #aboutimg2 {
   align-self: center;
