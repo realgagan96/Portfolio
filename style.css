@@ -1,5 +1,5 @@
-hr{
-  box-shadow: 2px 2px 9px ;
+hr {
+  box-shadow: 2px 2px 9px;
 }
 #hero-section {
   background-color: #fefefe;
@@ -19,7 +19,6 @@ hr{
     background-position: 60vw 0, 0 0;
     background-position: unquote("max(100vw, 40em)") 0, 0 0;
   }
-
 }
 
 .hero-body {
@@ -50,7 +49,7 @@ hr{
 #aboutme {
   margin: 50px;
 }
-#heropic2{
+#heropic2 {
   height: 300px;
   border-radius: 50%;
   box-shadow: 2px 2px 7px 2px;
@@ -61,14 +60,17 @@ hr{
 #sociallinks {
   margin-top: 20px;
 }
-#cards{
+#cards {
   padding: 50px;
 }
-#getintouch{
+#getintouch {
   font-size: 50px;
   font-family: "lobster";
   margin-bottom: 40px;
 }
-.section{
+.section {
   padding: 50px;
+}
+#submit {
+  margin-top: 20px;
 }
