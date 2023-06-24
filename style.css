@@ -71,6 +71,13 @@ hr {
 .section {
   padding: 50px;
 }
+#formcolumn{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+#formsytle{
+  margin: 40px;
+}
 #submit {
   margin-top: 20px;
 }
